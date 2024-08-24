@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="bodyload()">
+    <div class="container"> BMT STATUS
+        <div class="progress mt-5">
+            <div class="progress-bar bg-success me-2" role="progressbar" style="width: 25%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" id="pro-1">
+               <h6> underweight below 25 kg</h6>
+            </div>
+            <div class="progress-bar bg-info me-2" role="progressbar" style="width: 25%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" id="pro-2"> 
+                <h6>normal weight 54 kg to 74 kg</h6>
+            </div>
+            <div class="progress-bar bg-warning me-2" role="progressbar" style="width: 25%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" id="pro-3">
+                <h6>over weight 74 kg to 86 kg</h6>
+            </div>
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 25%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"> 
+                <h6>obesity 86kg to 100kg</h6>
+            </div>
+        </div>
+        <div class="yourstatus" id="yourstatus">
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+              </svg></span>
+            <div>YOU</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
